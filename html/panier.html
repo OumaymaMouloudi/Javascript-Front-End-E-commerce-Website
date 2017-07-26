@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <script src = "../data/url.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/panierData.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+        <div class = " cartP">
+            
+            <div class="cartTitle">
+                <img class='cartIcone' src="../img/cart.png" alt="">
+                <span id = 'shopping'> Shopping cart </span>
+            </div><br>
+            <table class = "table table-hover container">
+                <tr>
+                    <th class='col-sm-8'></th>
+                    <th class='col-sm-1'>Price </th>
+                    <th class='col-sm-1'>Quantity</th>
+                    <th class='col-sm-1'></th>
+                    <th class='col-sm-1'>Total</th>
+                </tr>
+                <tbody class = 'content'>
+                    <tr class = "row">
+                        <td class = "col-sm-6">
+                            <div class = "col-sm-2">
+                                <img class = "imgProduit" src="" alt="image Prod">
+                            </div>
+                            <div class="col-sm-4">
+                                <span id = "prodName">Product name</span><br>
+                                <span id = "prodComp">Product company</span>
+                            </div>
+                        </td>
+                        <td id = "price">0$</td>
+                        <td id = "qte"><input type="text" name="" value="1" class = "qte"/></td>
+                        <td>
+                            <button class = "btn btn-default remove" type="button">remove</button>
+                        </td>
+                        <td id = "total">0$</td>
+                    </tr>
+                </tbody>
+                
+                <tr class = "row">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <div class = "container" >
+                <div class = "row">
+                    <div class = "col-sm-5">
+                        <span>Special Instructions / Gift Note:</span><br>
+                        <textarea class = "form-control list" type="text" name="" value=""></textarea><br>
+                        <input type="checkbox" name="" value="">  is this order a gift ? check this box if you'de like to send
+                        it with a gift receipt (no price shown). we'll also include the note written above (if any).
+                    </div>
+                    <div class="col-sm-4">
+                        
+                    </div>
+                    <div class = "col-sm-3">
+                        <div class="list" align = "center">
+                            <span>Order Total : </span><span id="orderTotal">0$</span>
+                        </div>
+                        <br>
+                        <button class = "update btn btn-default list" type="button">Update cart</button><br>
+                        <button class = "btn btn-default list" type="button">checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

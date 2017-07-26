@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>e-commerce</title>
+        <script src = "../data/url.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--<script src = "Jquery.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script>  
+        <link rel="stylesheet" href="bootstrap.min.css">  -->    
+        <script type="text/javascript" src="../js/data.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+        <div class = "page">
+            <div class = 'row rech'>
+                <div class="dropdown container col-md-3"></div> 
+                <div class="dropdown container col-md-3"></div> 
+                <div class="dropdown show container col-md-3">
+                    <button class="btn btn-default dropdown-toggle list" type="button" data-toggle="dropdown">Sort By
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="SortBy">
+                        <li><a class="dropdown-item" id = "priceAsc" href="#">Price Ascending</a></li>
+                        <li><a class="dropdown-item" id = "priceDesc" href="#">Price Descending</a></li>
+                        <li><a class="dropdown-item" id = "nameAZ" href="#">Product Name A-Z</a></li>
+                        <li><a class="dropdown-item" id = "nameZA" href="#">Product Name Z-A</a></li>
+                    </ul>
+                </div> 
+                 <div class = "col-md-3">
+                    <input id = "research" type="text" class="form-control" id="usr" placeholder="Research.."/>
+                </div>
+            </div>
+            
+            <div id = "container">
+            <div class = "row prodList" id = "prodList">
+               
+                              
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

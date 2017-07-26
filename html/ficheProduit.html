@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fiche Produit</title>
+        <script src = "../data/url.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--<script src = "Jquery.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script>-->        
+        <script type="text/javascript" src="../js/detailsData.js"></script>
+        
+        <!--<link rel="stylesheet" href="bootstrap.min.css">-->
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">    
+    </head>
+    <body>
+        <div class="header" margin = "100px">&nbsp;</div>
+
+        <div class = "container" id = "pageF">
+            <div class = "row">
+                <div class = "col-sm-5">
+                    <img class="imgProd" id="imgProdPrincipal" src = "" alt = "image du Produit"/>
+                </div>
+                <div class = "col-sm-7">
+                    <span id = "prodTitle" class="prodTitle">Produit indisponible</span><br>
+                    <span id = "prodPrice" class="prodTitle">Product Price</span><br><br>
+                    <div class="dropdown container col-md-6">
+                        <button class="btn btn-default dropdown-toggle bt" type="button" data-toggle="dropdown">Color
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">color1</a></li>
+                            <li><a href="#">color2</a></li>
+                            <li><a href="#">color3</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown container col-md-6">
+                    <button class="btn btn-default addbtn" id = "addToCart" type="button" >Add To Cart</button>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <p id = "description">Description</p>
+                    <br>
+                    <hr>
+                    <span class = "moreImg">More Images</span>
+                    <hr>
+                    <br>
+                    <div class = "container">
+                        <div class = "row">
+                            <div class = col-md-2>
+                                <img class="imgProd" id="moreImg" src = "" alt = "image du Produit"/>
+                            </div>
+                            <div class = col-md-offset-1></div>
+                            <div class = col-md-2>
+                                <img class="imgProd" id="moreImg" src = "" alt = "image du Produit"/>
+                            </div>
+                            <div class = col-md-offset-1></div>
+                            <div class = col-md-2>
+                                <img class="imgProd" id="moreImg" src = "" alt = "image du Produit"/>
+                            </div>
+                        </div> 
+                        <div class = "row">
+                            <div class = col-md-2>
+                                <img class="imgProd" id="moreImg" src = "" alt = "image du Produit"/>
+                            </div>
+                            <div class = col-md-offset-1></div>
+                            <div class = col-md-2>
+                                <img class="imgProd" id="moreImg" src = "" alt = "image du Produit"/>
+                            </div>
+                            <div class = col-md-offset-1></div>
+                            
+                        </div>
+                                                                           
+                    </div>
+                    <!-- Pinterest icone -->
+                </div>  
+            </div>
+        </div>
+    </body>
+</html>
